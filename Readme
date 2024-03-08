@@ -14,6 +14,7 @@ You have to place the file on the esphome folder
 
 I placed a bypass button on D7 on the D1 mini as i had to ensure that i would be able to switch even if the wifi fails.
 (Wiring Diagram pending to upload)
+The button it's only switching between PC1 and PC2 but you can add more adding more if entries.
 
 The components needed are:
 1 USB Female
