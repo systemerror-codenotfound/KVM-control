@@ -1,0 +1,11 @@
+This is for controling a KVM over UART
+
+I guess there are a lot more KVM's that use this type of control
+
+It use a small remote with 4 buttons and it comunicate with the KVM over a custom USB Cable.
+https://m.media-amazon.com/images/I/51Yi0aUXXwL._SL1000_.jpg
+
+
+I actually followed this info to start
+https://wiki.blicube.com/blikvm/en/switch-guide/#packing-list
+The most important part is that the signal is inverted, so you have to invert the UART Logic on the config.
