@@ -9,3 +9,6 @@ https://m.media-amazon.com/images/I/51Yi0aUXXwL._SL1000_.jpg
 I actually followed this info to start
 https://wiki.blicube.com/blikvm/en/switch-guide/#packing-list
 The most important part is that the signal is inverted, so you have to invert the UART Logic on the config.
+
+I had to also modify the uart_read_line_sensor.h to change the way it thinks the data was received.
+You have to place the file on the esphome folder
